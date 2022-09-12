@@ -1,11 +1,12 @@
 {
-    "name": "@goofy-code/angular-storybook-cli",
+    "name": "@pateta/angular-storybook-cli",
     "version": "0.0.1",
     "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+
     "bin": {
         "angular-storybook-cli": "bin/angular-storybook-cli"
     },
