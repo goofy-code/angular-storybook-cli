@@ -27,7 +27,7 @@ export async function cli(args) {
         case 'create':
         case 'c':
         {
-            // cli.createModule();
+            cli.createModule();
             cli.createStory(storybookNamespace, wildcardName);
             cli.formatCode();
 
