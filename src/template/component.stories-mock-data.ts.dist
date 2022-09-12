@@ -1,0 +1,4 @@
+import { __PASCAL_CASE_NAME__Props } from './__KEBAB_CASE_NAME__.types';
+
+export const defaultData: __PASCAL_CASE_NAME__Props = {
+};

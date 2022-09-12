@@ -1,0 +1,18 @@
+import { Meta, Story } from '@storybook/angular';
+import { __PASCAL_CASE_NAME__Component } from './__KEBAB_CASE_NAME__.component';
+import { __PASCAL_CASE_NAME__Props } from './__KEBAB_CASE_NAME__.types';
+import { defaultData } from './__KEBAB_CASE_NAME__.stories-mock-data';
+import { mainLayoutDecorator } from '@storybook/decorators/layout';
+
+const Template: Story<__PASCAL_CASE_NAME__Props> = (args: __PASCAL_CASE_NAME__Props) => ({
+    props: args
+});
+
+export const Default = Template.bind({});
+Default.args = defaultData;
+
+export default {
+    title: '__WILDCARD_NAME__/__START_CASE_NAME__',
+    component: __PASCAL_CASE_NAME__Component,
+    decorators: [mainLayoutDecorator]
+} as Meta;

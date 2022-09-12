@@ -1,0 +1,3 @@
+export type __PASCAL_CASE_NAME__Props = {
+    [key: string]: any;
+};

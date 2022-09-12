@@ -1,0 +1,28 @@
+{
+    "name": "@goofy-code/angular-storybook-cli",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "angular-storybook-cli": "bin/angular-storybook-cli"
+    },
+    "keywords": [
+        "angular",
+        "storybook",
+        "cli",
+        "generate component"
+    ],
+    "author": "Matias Thomsen <goofy-code@outlook.com>",
+    "license": "ISC",
+    "dependencies": {
+        "esm": "^3.2.25",
+        "fs-extra": "^10.0.0",
+        "inquirer": "^8.1.1",
+        "lodash": "^4.17.21",
+        "shelljs": "^0.8.5"
+    }
+}
+
