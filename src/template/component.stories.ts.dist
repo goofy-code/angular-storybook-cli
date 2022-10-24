@@ -12,7 +12,7 @@ export const Default = Template.bind({});
 Default.args = defaultData;
 
 export default {
-    title: '__WILDCARD_NAME__/__START_CASE_NAME__',
+    title: '__STORY_TITLE__',
     component: __PASCAL_CASE_NAME__Component,
     decorators: [mainLayoutDecorator]
 } as Meta;
